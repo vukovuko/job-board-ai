@@ -9,7 +9,7 @@ Start the database and development server:
 ```bash
 npm install
 docker compose up
-npm run db:generate    # only needed if schema has changed
+npm run db:generate
 npm run db:migrate
 npm run dev
 ```
